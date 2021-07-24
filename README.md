@@ -28,6 +28,8 @@ cv2.waitKey(0)
 
 
 ## Example for Video
+
+<pre><code>
 smp = ShowMatrixPic(width=320, height=240, row=3, column=4, atuoTile=True)
 
 cap0 = cv2.VideoCapture(0)
@@ -47,4 +49,5 @@ while True:
         numpy_horizontal = smp.showVideo(imgListOne)
         cv2.imshow('img', numpy_horizontal)
         cv2.waitKey(1)
+</code></pre>
 ![Alt text](/img/2.gif)
